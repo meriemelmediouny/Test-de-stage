@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: white;
+    font-size: 10px;
+}
+h1{
+    text-align: center;
+    
+}
+.container{
+    margin: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.row   {
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1.text-center { margin:0 auto;}
+
+
+/*--Might be in use--
+h1.text-left {margin-right:auto;text-align:left;}
+*/
+
+h1:after {content:''; display:block; width:60px; height:4px; background:#14315d; margin:0 auto; margin-top:15px; border-radius:1px;}
+
+.jumbotron p {font-weight:normal; color:#6d747d; margin-top:40px;}
+
+h1.small-line:after {width:40px; background:#99a3b1;}
+figure{
+   
+    overflow: hidden;
+    margin: 0 30px;
+    border-radius: 50%;
+    padding: 10%;
+    border: 3px solid transparent;
+    border-color: #14315d;
+    transition: all 0.3s ease-in-out;
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:white;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+   
+}
+figure:hover{
+    color:rgb(209, 133, 32);
+}
+
+div{
+    margin-right: auto;
+    margin-left: auto;
+  
+    
+}
+
+.img-round figure img {
+    -webkit-transform: scale(1.25);
+	transform: scale(1.25);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+    
+}
+
+.img-round figure:hover img{
+    -webkit-transform: scale(1);
+	transform: scale(1); 
+}
+
+.img-round{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+img{
+    width: 82%;
+    /* height: 80px;
+    margin-left: 15%;
+    margin-right: auto; */
+   
+}
+ 
+.img-round:hover{
+    color:  #f08952;
+}
+
+
+
+ .img-round:hover > figure {
+    border-color: #f08952;
+}
+.img-round:hover > h3{
+    color:  #f08952;
+} 
+
+
+ 
+h3{
+    text-align: center;
+    font-family: system-ui;
+    color: #14315d;
+}
+  
+    
+
+
+
+figure img:hover img{
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+    
+}
+
+@media (max-width: 1024px){
+  
+   
+}
+@media (max-width: 767px){
+    
+ 
+   
+}
+@media (max-width: 300px){
+    
+    
+     
+     
+  }
+  
+     
+
